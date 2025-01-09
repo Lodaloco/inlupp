@@ -5,5 +5,3 @@ def validate_password(password):
     """
     """
     return len(password) >= 8 and any(char.isdigit() for char in password)
-print(validate_password("abc12345"))
-print(validate_password("maxmaxmax"))

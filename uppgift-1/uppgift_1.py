@@ -9,5 +9,3 @@ def is_odd(x: int) -> bool:
     Skriv beskrivning här.
     """
     return x % 2 == 1
-print (is_odd(2))
-print (is_odd(3))

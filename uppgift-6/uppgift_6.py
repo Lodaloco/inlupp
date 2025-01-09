@@ -7,6 +7,3 @@ def multiplication_table(n: int, limit: int) -> list[int]:
     """
     return [n * i for i in range(1, limit + 1)]
 
-print(multiplication_table(2, 5))  
-print(multiplication_table(3, 10)) 
-print(multiplication_table(7, 3)) 

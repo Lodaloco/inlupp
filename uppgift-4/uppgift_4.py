@@ -7,4 +7,4 @@ def fibonacci(n):
         fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
     return fib_sequence[:n]
 
-print(fibonacci(7))
+print(fibonacci(10))
